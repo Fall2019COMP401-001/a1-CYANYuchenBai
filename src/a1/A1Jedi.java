@@ -47,7 +47,7 @@ public class A1Jedi {
 			if(ppl_buying[i] == 0) {
 				System.out.println("No customers bought " + objectname[i]);
 			} else {
-			System.out.println(objectList[i] + " customers bought " + ppl_buying[i] + " " + objectname[i]);
+			System.out.println(ppl_buying[i] + " customers bought " + objectList[i] + " " + objectname[i]);
 		}
 	}
 }
